@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 300px;
+}
+
+body {
+    position: relative;
+}
+
+.boxes {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 1px solid black;
+    width: 60px;
+    height: 220px;
+    box-shadow: 0 1px 3px 3px purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.bx1 {
+    background: red;
+}
+
+.bx2 {
+    background: yellow;
+}
+
+.bx3 {
+    background: green;
+}
+
+.bx4::after {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    content: "\274c"; 
+    font-size: 25px; 
+    color: #FFF;
+    line-height: 100px;
+    text-align: center;
+}
+
+.items {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.style {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+.stylee {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background: none;
+}
+
+.style2 {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background: yellow;
+}
+
+.style3 {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background: green;
+}
