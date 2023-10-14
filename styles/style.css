@@ -70,30 +70,3 @@ body {
     height: 200px;
 }
 
-.style {
-    border: 2px solid black;
-    width: 200px;
-    height: 200px;
-    background: red;
-}
-
-.stylee {
-    border: 2px solid black;
-    width: 200px;
-    height: 200px;
-    background: none;
-}
-
-.style2 {
-    border: 2px solid black;
-    width: 200px;
-    height: 200px;
-    background: yellow;
-}
-
-.style3 {
-    border: 2px solid black;
-    width: 200px;
-    height: 200px;
-    background: green;
-}
